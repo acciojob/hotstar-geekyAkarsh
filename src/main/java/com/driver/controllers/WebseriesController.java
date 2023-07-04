@@ -20,7 +20,8 @@ public class WebseriesController {
     public int addWebSeries(WebSeriesEntryDto webSeriesEntryDto){
 
         try{
-            return webSeriesService.addWebSeries(webSeriesEntryDto);
+            webSeriesService.addWebSeries(webSeriesEntryDto);
+            return 123;
 
         }catch (Exception e){
             return -1;
