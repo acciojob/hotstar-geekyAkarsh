@@ -23,7 +23,7 @@ public class ProductionHouseService {
         productionHouse.setRatings(0.0);
 
         ProductionHouse savedProductionHouse = productionHouseRepository.save(productionHouse);
-        return  0;
+        return  1;
     }
 
 
